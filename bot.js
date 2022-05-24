@@ -38,8 +38,7 @@ client.on('message', function (messages) {
 })
 client.on('message', function (messages) {
     if (messages.content.toLocaleLowerCase()==='?moan')
-        messages.channel.send('Hello, ' + messages.author.username + ".You wanted this, sad life. "); //reply hello word message with senders name
-        messages.channel.send('😩🍆🍆🍑')
+        messages.channel.send('Hello, ' + messages.author.username + ".You wanted this, sad life. " + "😩🍆🍆🍑"); //reply hello word message with senders name
 })
 
 
